@@ -1,4 +1,8 @@
-# Tugas 1 PBKK
+# Tugas PBKK - Laravel
+
+| Nama                   | NRP        |
+| ---------------------- | ---------- |
+| Reynaldi Neo Ramadhani | 5025221265 |
 
 Disini navbar dan header sudah menggunakan blade component, sehingga jika ingin mengubahnya dapat langsung dari component tersebut tidak perlu untuk mengubah di setiap halaman.
 
