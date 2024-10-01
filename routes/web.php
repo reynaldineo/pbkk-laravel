@@ -26,7 +26,7 @@ Route::get('/posts/{post:slug}', function (Post $post){
 Route::get('/authors/{user:username}', function(User $user){
     $posts = $user->posts->Load(['category', 'author']);
 
-    return view(('posts'), ['title' => count($posts) . ' Articles by' . $user->name, 'posts' => $posts]);   
+    return view(('posts'), ['title' => count($posts) . ' Articles by ' . $user->name, 'posts' => $posts]);   
 });
 
 Route::get('/categoreis/{category:slug}', function(Category $category){
